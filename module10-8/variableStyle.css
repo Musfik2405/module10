@@ -1,0 +1,29 @@
+
+:root{
+    --primary-color:purple;
+    --secondary-color: blue;
+    --font-size: 50px
+}
+
+
+
+h1{
+    color: var(--primary-color);
+}
+
+h5{
+    background-color: var(--secondary-color);
+}
+
+.box{
+    border: var(--font-size) solid steelblue;
+    /* 100 */
+    width: calc(100% - 420px);
+
+}
+
+.box p{
+    color: var(--primary-color);
+
+    font-size: var(--font-size);
+}
