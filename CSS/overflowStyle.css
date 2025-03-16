@@ -1,0 +1,22 @@
+.box{
+    width: 500px;
+    border: 2px solid slateblue;
+    height: 300px;
+    
+        /* overflow: scroll; */
+        overflow-y: auto;
+    }
+
+/* #box-1{
+    overflow: scroll;
+    overflow-x: hidden;
+} */
+
+.ellipsis{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid steelblue;
+    /* text-overflow: ellipsis; */
+    text-overflow: clip;
+}
